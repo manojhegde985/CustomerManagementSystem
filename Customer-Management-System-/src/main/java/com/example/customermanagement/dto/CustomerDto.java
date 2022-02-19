@@ -22,6 +22,7 @@ import com.example.customermanagement.CustomerManagementSystemApplication;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 @Table(name="customer_table")
+@Entity
 public class CustomerDto {
 
 		@Id
@@ -96,7 +97,10 @@ public class CustomerDto {
 		public void setEmail(String email) {
 			this.email = email;
 		}
-			
+
+		
+
+		
 }
 		
 

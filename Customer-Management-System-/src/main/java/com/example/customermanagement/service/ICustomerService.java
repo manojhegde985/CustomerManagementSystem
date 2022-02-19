@@ -5,6 +5,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.example.customermanagement.CustomerManagementSystemApplication;
+import com.example.customermanagement.dto.CustomerDto;
 import com.example.customermanagement.entity.Customer;
 
 public interface ICustomerService {
@@ -21,6 +22,8 @@ public List<Customer> getAllCustomers();
 public Customer getCustomer(Integer cid);
 
 public Customer addCustomer(Customer customer);
+
+public String healthCheck(Integer cid);
 
 public void delete(Integer id);
 		

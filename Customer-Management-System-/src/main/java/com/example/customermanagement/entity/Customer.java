@@ -19,8 +19,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import com.example.customermanagement.CustomerManagementSystemApplication;
 import com.fasterxml.jackson.annotation.JsonProperty;
-@Entity
-@Table(name="customer_table")
+
+
 public class Customer {
 
 		@Id

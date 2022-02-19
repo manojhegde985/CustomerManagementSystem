@@ -1,4 +1,4 @@
-package com.example.customermanagement.healthcheck;
+package com.example.customermanagement.eo;
 
 import java.net.HttpURLConnection;
 import java.net.URL;
@@ -26,7 +26,7 @@ return Health.up().withDetail(message_key, "Available").build();
 
 private boolean isRunningServiceCustomerService() {
 try {
-URL url = new URL("http://localhost:8080/customer/getAll");
+URL url = new URL("http://localhost:8083/customer/getAll");
 HttpURLConnection connection = (HttpURLConnection) url.openConnection();
 connection.setRequestMethod("GET");
 connection.connect();
