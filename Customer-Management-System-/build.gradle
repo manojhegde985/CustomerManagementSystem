@@ -34,41 +34,10 @@ annotationProcessor 'org.mapstruct:mapstruct-processor:1.4.2.Final'
     testImplementation group: 'org.mockito', name: 'mockito-core', version: '2.1.0'
 testImplementation('org.junit.jupiter:junit-jupiter:5.8.2')
  implementation group: 'javax.validation', name: 'validation-api', version: '2.0.1.Final'
+ testImplementation group: 'junit', name: 'junit', version: '4.13.2'
  
-implementation group: 'io.cucumber', name: 'cucumber-core', version: '7.2.3'
-implementation group: 'io.cucumber', name: 'cucumber-html', version: '0.2.7'
-testImplementation group: 'net.sourceforge.cobertura', name: 'cobertura', version: '2.1.1'
 implementation group: 'io.cucumber', name: 'cucumber-java', version: '7.2.3'
 testImplementation group: 'io.cucumber', name: 'cucumber-junit', version: '7.2.3'
-implementation group: 'net.masterthought', name: 'cucumber-reporting', version: '5.6.1'
-testImplementation group: 'org.hamcrest', name: 'hamcrest-core', version: '2.2'
-implementation group: 'io.cucumber', name: 'gherkin', version: '22.0.0'
-implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.1.2'
-
-
-testImplementation group: 'junit', name: 'junit', version: '4.13.2'
-
-
-// https://mvnrepository.com/artifact/io.cucumber/cucumber-java
-implementation group: 'io.cucumber', name: 'cucumber-java', version: '6.9.1'
-// https://mvnrepository.com/artifact/io.cucumber/cucumber-junit
-testImplementation group: 'io.cucumber', name: 'cucumber-junit', version: '6.11.0'
-// https://mvnrepository.com/artifact/io.cucumber/cucumber-jvm-deps
-compileOnly group: 'io.cucumber', name: 'cucumber-jvm-deps', version: '1.0.6'
-// https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java
-implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.1.1'
-
-
-testImplementation "com.github.tomakehurst:wiremock-jre8:2.32.0"
-// https://mvnrepository.com/artifact/commons-io/commons-io
-implementation group: 'commons-io', name: 'commons-io', version: '2.11.0'
-// https://mvnrepository.com/artifact/org.testng/testng
-testImplementation group: 'org.testng', name: 'testng', version: '7.5'
-// https://mvnrepository.com/artifact/com.beust/jcommander
-implementation group: 'com.beust', name: 'jcommander', version: '1.78'
-// https://mvnrepository.com/artifact/io.rest-assured/rest-assured
-//testImplementation group:'io.rest-assured', name: 'rest-assured', version: '4.4.0'
-testImplementation group: 'io.rest-assured', name: 'rest-assured', version: '3.3.0'
  }
 
 sourceSets{
