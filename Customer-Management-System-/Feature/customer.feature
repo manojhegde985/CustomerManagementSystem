@@ -1,10 +1,5 @@
-#Author
-#Date
-#Description
-@SmokeScenario
 Feature: feature to test login functionality
 
-  @SmokeTest
   Scenario: check the customer details
     Given go to postman api
     When enter cid cname city and email using post method
@@ -13,7 +8,7 @@ Feature: feature to test login functionality
 
   Scenario Outline: check the customer details
     Given go to postman api
-    When I enter <cid> <cname> <city> and <email>
+    When I enter <cid> and <cname> and <city> and <email>
     And clicks on send button
     Then we get the customer details
 
