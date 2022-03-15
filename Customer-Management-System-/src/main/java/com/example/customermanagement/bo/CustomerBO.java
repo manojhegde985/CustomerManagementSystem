@@ -29,7 +29,7 @@ private CustomerEO eo;
 private MapstructMapper mapstruct;
 
 
-private static final Logger logger = LoggerFactory.getLogger(CustomerManagementSystemApplication.class);
+private static final Logger logger = LoggerFactory.getLogger(CustomerBO.class);
 public String ServiceLog() {
 logger.info("this is a customer management bo file ");
 return "ServiceLog";
